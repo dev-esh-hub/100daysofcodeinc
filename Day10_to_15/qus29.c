@@ -12,8 +12,9 @@ int main(){
         for (i; i<=n; i+=1){
             fact = fact * i;
         }
+        printf("Factorial of %d is %d", n, fact);
     }else 
         printf("Enter positive number for factorial!");
-    printf("Factorial of %d is %d", n, fact);
     return 0;
 }
+
