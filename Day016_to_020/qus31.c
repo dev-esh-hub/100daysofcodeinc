@@ -16,17 +16,3 @@ int main(){
     printf("Binary representation of %d is %ld", n, bin);
     return 0;
 }
-
-/*
-Sample Test Cases:
-Input 1:
-10
-Output 1:
-1010
-
-Input 2:
-7
-Output 2:
-111
-
-*/
