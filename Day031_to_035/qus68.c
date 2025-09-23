@@ -34,15 +34,3 @@ int main(){
         printf("Number of elements can't be negative or zero!");
     return 0;
 }
-
-
-/*
-Sample Test Cases:
-Input 1:
-5
-1 2 3 4 5
-2
-Output 1:
-1 2 4 5
-
-*/
