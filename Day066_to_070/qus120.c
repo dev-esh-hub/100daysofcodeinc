@@ -5,10 +5,10 @@
 #include<string.h>
 
 void sentence_case(char str[100]){
-    int capitalize = 1;  // Flag to capitalize next character
+    int capitalize = 1; 
     for (int i = 0; str[i] != '\0'; i+=1) {
         if (capitalize == 1 && str[i] >= 'a' && str[i] <= 'z') {
-            str[i] = toupper(str[i]);  // or use toupper(str[i])
+            str[i] = toupper(str[i]); 
             capitalize = 0;
         } else if (str[i] == ' ') {
             capitalize = 1;
@@ -28,4 +28,5 @@ int main(){
     printf("The actual string is: \n%s\n", str);
     sentence_case(str);
     return 0;
+
 }
